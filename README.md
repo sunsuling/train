@@ -38,11 +38,18 @@ app
   -- views  存放所有的页面(可以扩子包)
   
   -- Global.java 这个类 项目自启动的时候自动运行，在这里可以做拦截操作以及回调，JOB轮寻操作等
+  
 conf   配置文件
+  
   -- applicatio.conf  包含数据库等配置信息
+  
   -- routers 路由文件 存放所有的URL
+
 logs 
+
    存放所有的错误日志
+
 public 
+
     存放前台页面依赖的js ,css 图片等
 
