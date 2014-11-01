@@ -26,6 +26,7 @@ https://github.com/jeromeetienne/jquery-qrcode 以及使用方法
 http://www.bootcss.com/p/layoutit/
 
 // 项目结构
+
 app 
   -- bean    存放session 的model 
   
