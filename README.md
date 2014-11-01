@@ -28,10 +28,15 @@ http://www.bootcss.com/p/layoutit/
 // 项目结构
 app 
   -- bean    存放session 的model 
+  
   -- controllers  存放所有的台controller(可以扩子类)
+  
   -- sqlmap  存放一些不能用model去实现的复杂sql
+  
   -- utils  一些工具类
+  
   -- views  存放所有的页面(可以扩子包)
+  
   -- Global.java 这个类 项目自启动的时候自动运行，在这里可以做拦截操作以及回调，JOB轮寻操作等
 conf   配置文件
   -- applicatio.conf  包含数据库等配置信息
