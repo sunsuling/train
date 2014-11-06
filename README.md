@@ -48,7 +48,7 @@ conf   配置文件
 
 logs 
 
-   存放所有的错误日志
+     存放所有的错误日志
 
 public 
 
@@ -58,13 +58,14 @@ public
 
 -- 修改play 发布时的端口
 
-    运行 start -Dhttp.port=8080
+       运行 start -Dhttp.port=80
     
 -- 授权start文件
 
-   chmod +x start
+      chmod +x start
    
 -- 生成linux下运行的文件
 
-   play dist
-   
+      play dist
+ -- 解zip文件
+    unzip XXX.zip
