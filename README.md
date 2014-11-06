@@ -58,3 +58,8 @@ public
 
 -- 修改play 发布时的端口
     运行 start -Dhttp.port=8080
+-- 授权start文件
+   chmod +x start
+-- 生成linux下运行的文件
+   play dist
+   
