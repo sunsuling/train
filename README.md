@@ -54,3 +54,7 @@ public
 
     存放前台页面依赖的js ,css 图片等
 
+
+
+-- 修改play 发布时的端口
+    运行 start -Dhttp.port=8080
